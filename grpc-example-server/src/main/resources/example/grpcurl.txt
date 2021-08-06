@@ -1,0 +1,1 @@
+grpcurl -plaintext -d '{"name": "Sergio", "city": "Madrid"}' localhost:9095 com.gumi.grpc.example.hello.service.HelloService/hello

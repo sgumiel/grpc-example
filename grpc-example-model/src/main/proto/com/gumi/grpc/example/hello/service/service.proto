@@ -1,0 +1,8 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.gumi.grpc.example.hello.service;
+import "com/gumi/grpc/example/hello/model/model.proto";
+
+service HelloService {
+  rpc hello(com.gumi.grpc.example.hello.model.HelloRequest) returns (com.gumi.grpc.example.hello.model.HelloResponse);
+}
