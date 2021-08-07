@@ -1,10 +1,10 @@
-package com.gumi.gprc.example.client;
+package com.gumi.grpc.example.client;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GprcExampleClientApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {
