@@ -1,12 +1,14 @@
 package com.gumi.grpc.example.client;
 
-import com.gumi.grpc.example.hello.model.HelloRequest;
-import com.gumi.grpc.example.hello.service.HelloServiceGrpc;
-import net.devh.boot.grpc.client.inject.GrpcClient;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+
+import com.gumi.grpc.example.hello.model.HelloRequest;
+import com.gumi.grpc.example.hello.service.HelloServiceGrpc;
+
+import net.devh.boot.grpc.client.inject.GrpcClient;
 
 @SpringBootApplication
 public class Application {
@@ -28,8 +30,4 @@ public class Application {
 		};
 
 	}
-
-
-
-
 }
